@@ -1,1 +1,5 @@
-const applikasiIG = '979128561dc6a16d7e0d1d9c0f4d1829';
+var apiKey = 'b0701d06';
+
+$('.btn-film').on('click', function () {
+  console.log('haiiii');
+});

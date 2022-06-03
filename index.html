@@ -9,32 +9,42 @@
     <title>Learn Public API</title>
   </head>
   <body>
-    <div class="wrapper">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="#">RH BIOSKOP</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">FILM</a>
+            </li>
+           
+        </div>
+      </div>
+    </nav>
+    <div class="container">
       <div class="row pt-5">
         <div class="col text-center">
-          <h3>MY SOCIAL MEDIA</h3>
+          <h3>CARI FILM</h3>
         </div>
-        <div class="row mt-5 text-center">
-          <div class="col-md-4">
-            <h4>Instagram</h4>
-            <div class="row pt-5">
-              <div class="col-5">
-                <img src="test.jpg" class="img-thumbnail rounded-circle" alt="..." />
-              </div>
-              <div class="col-6">
-                <h4>10000 Followers</h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <h4>Facebook</h4>
-          </div>
-          <div class="col-md-4">
-            <h4>Github</h4>
+      </div>
+      <div class="row mt-5 justify-content-center">
+        <div class="col-6">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control input-film" placeholder="Judul Film" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-primary btn-film" type="button" id="button-addon2">Cari</button>
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-4">
+
+        </div>
+      </div>  
     </div>
     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
   </body>
 </html>

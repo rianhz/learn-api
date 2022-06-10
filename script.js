@@ -2,6 +2,12 @@ $('#btn-film').on('click', function () {
   searchFilm();
 });
 
+$('#input-film').on('keyup', function (e) {
+  if (e.keyCode === 13) {
+    searchFilm();
+  }
+});
+
 function searchFilm() {
   $('#movie-list').html('');
   $.ajax({
